@@ -1,17 +1,134 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:Roboto;
+  
+}
+
+.icon{
+  max-width: 150px;
+  height:60px;
+  margin-left:0px;
+  margin-top:10px;
+  align-items: left;
+  float:left;
+  box-shadow:0px 0px
+}
+nav{
+  text-align:left;
+  height: 30px;
+  padding:25px;
+  font-family:Roboto;
+  box-shadow:0px 0px
+
+
+}
+
+nav .search{
+  width:120px;
+  height:100px;
+  margin-left:53.81%;
+  margin-top: -300px;
+  margin-right:-6px;
+  background-color: aliceblue;
+  border-color: aliceblue;
+  gap:0px;
+  box-shadow:0px 0px
+}
+nav .adopt{
+  width:120px;
+  height:100px;
+  margin-top: -300px;
+  margin-right:-6px;
+  background-color:#FFB343;
+  border-color:#FFB343;
+  font-family:Roboto;
+  font-size: 20px;
+  font-weight: 900px;
+  box-shadow:0px 0px
+  
+  
+
+}
+nav .donate{
+  width:120px;
+  height:100px;
+  margin-top: -300px;
+  margin-right:-6px;
+  background-color:orange;
+  border-color:orange;
+  font-family:Roboto;
+  font-size: 20px;
+  font-weight: 900px;
+
+}
+nav .join{
+  width:120px;
+  height:100px;
+  margin-top: -300px;
+  margin-right:-6px;
+  background-color:#eb5c23;
+  border-color:#eb5c23;
+  font-family:Roboto;
+  font-size: 20px;
+  font-weight: 900px;
+
+.mainLeft{
+  background-color: black;
+  height: 400px;
+
+}
+
+}
+.mainPhoto{
+  width: 70%
+  ;
+  
+}
+
+.container{
+  display:flex;
+  align-items:stretch;
+}
+.left-section{
+  background-color: black;
+  color:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-left:30px;
+  height:500px;
+  border:10px solid black;
+}
+.right-section img{
+  display: block;
+  height: 100%;
+  width: 850px;
+  object-fit:cover;
+  border: 15px solid black ;
+  box-sizing: border-box;
+}
+
+section{
+  background-color: black;
+}
+
+
 .flex-container {
   display: flex;
-
   padding:16;
+  height: 1000px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap:8px;
 }
-/* this selector selects all divs inside of .flex-container */
 .flex-container div {
-  background: peachpuff;
-  border: 4px solid brown;
+  background:white;
+  border: 4px solid #3882f6;
+  border-radius:10px;
   width: 200px;
   height: 150px;
   flex:0 1 auto;
 }
+
