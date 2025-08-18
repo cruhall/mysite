@@ -34,7 +34,11 @@ nav .search{
   border-color: aliceblue;
   gap:0px;
   box-shadow:0px 0px;
-  font-size:22px;
+  font-size: 22px;
+}
+nav .search:hover{
+  background-color:black;
+  color:white
 }
 nav .adopt{
   width:120px;
@@ -46,10 +50,12 @@ nav .adopt{
   font-family:League Spartan;
   font-size: 20px;
   font-weight: 900px;
-  box-shadow:0px 0px
-  
-  
+  box-shadow:0px 0px;
 
+}
+nav .adopt:hover{
+  background-color:black;
+  color:white
 }
 nav .donate{
   width:120px;
@@ -61,7 +67,10 @@ nav .donate{
   font-family:League Spartan;
   font-size: 20px;
   font-weight: 900px;
-
+}
+nav .donate:hover{
+  background-color:black;
+  color:white
 }
 nav .join{
   width:120px;
@@ -73,14 +82,18 @@ nav .join{
   font-family:League Spartan;
   font-size: 20px;
   font-weight: 900px;
-
+}
+nav .join:hover{
+  background-color:black;
+  color:white
+}
 .mainLeft{
   background-color: black;
   height: 400px;
 
 }
 
-}
+
 .mainPhoto{
   width: 70%
   ;
