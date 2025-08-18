@@ -35,12 +35,17 @@ nav .search{
   gap:0px;
   box-shadow:0px 0px;
   font-size: 22px;
+  cursor: pointer;
+  transition:background-color 0.25s;
+  transition:border-color 0.25s;
+  transition:color 0.25s;
 
 }
 nav .search:hover{
   background-color:black;
   color:white;
   border:4px solid black;
+  
 }
 nav .adopt{
   width:120px;
@@ -53,6 +58,11 @@ nav .adopt{
   font-size: 20px;
   font-weight: 900px;
   box-shadow:0px 0px;
+  transition:background-color 0.25s;
+  transition:border-color 0.25s;
+  transition:color 0.25s;
+  cursor: pointer;
+
 
 }
 nav .adopt:hover{
@@ -70,6 +80,11 @@ nav .donate{
   font-family:League Spartan;
   font-size: 20px;
   font-weight: 900px;
+  transition:background-color 0.25s;
+  transition:border-color 0.25s;
+  transition:color 0.25s;
+  cursor: pointer;
+
 }
 nav .donate:hover{
   background-color:black;
@@ -86,6 +101,11 @@ nav .join{
   font-family:League Spartan;
   font-size: 20px;
   font-weight: 900px;
+  transition:background-color 0.25s;
+  transition:border-color 0.25s;
+  transition:color 0.25s;
+  cursor: pointer;
+
 }
 nav .join:hover{
   background-color:black;
@@ -134,6 +154,11 @@ nav .join:hover{
   font-family: League Spartan;
   font-size:20px ;
   height: 60px;
+  transition:background-color 0.25s;
+  transition:border-color 0.25s;
+  transition:color 0.25s;
+  cursor: pointer;
+
 }
 .left-section .daily-button:hover{
   background-color: black;
@@ -294,6 +319,10 @@ section .quote{
   position:relative;
   top:-150px;
   left:640px;
+  transition:background-color 0.25s;
+  transition:border-color 0.25s;
+  transition:color 0.25s;
+  cursor: pointer;
 }
 .container2 .sign-up button:hover{
   background-color: black;
